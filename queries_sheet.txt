@@ -1,0 +1,20 @@
+1. Ranking de Pilotos por Número de Victorias en Grandes Premios de F1.
+2. Ranking de Nacionalidades por Número de Victorias en Grandes Premios de F1.
+3. Ranking de Constructores por Número de Victorias en Grandes Premios de F1.
+4. Ranking de Pilotos por Número de 'Pole Positions' en Grandes Premios de F1.
+5. Ranking de Constructores por Número de 'Pole Positions' en Grandes Premios de F1.
+6. Ranking de Pilotos por Número de Campeonatos del Mundo de F1.
+7. Ranking de Constructores por Número de Campeonatos del Mundo de F1.
+8. Vueltas Rápidas de Carrera desde que marcar la Vuelta Rápida de Carrera en Grandes Premios de F1 es puntuable.
+9. Victorias en 'Sprint Races' de Grandes Premios de F1.
+10. Trayectoria de Pilotos Españoles en el Campeonato del Mundo de F1.
+11. Victorias de Pilotos Españoles en Grandes Premios de F1.
+12. Podios de Pilotos Españoles en Grandes Premios de F1.
+13. 'Pole Positions' de Pilotos Españoles en Grandes Premios de F1.
+14. Trayectoria de Constructores Españoles en el Campeonato del Mundo de F1.
+15. Circuitos en España que han albergado un Gran Premio de F1.
+16. Historia del Gran Premio de España de Fórmula 1.
+17. Historia del Gran Premio de Europa de Fórmula 1.
+18. CURIOSIDAD: Resultados del Gran Premio de Estados Unidos de la Temporada 2005 del Campeonato del Mundo de Fórmula 1.
+19. BONUS: Dobletes de Constructores en Grandes Premios de F1.
+20. BONUS: 'Grand Chelems' en Grandes Premios de F1.
