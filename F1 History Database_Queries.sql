@@ -595,6 +595,9 @@ SELECT
             END
     END AS championship_standing,
     driver_standings.points || ' point(s)' AS championship_points
+FROM
+    results
+INNER JOIN races ON results.race_id = races.race_id
 
 
 /*
@@ -829,6 +832,13 @@ WHERE
 ORDER BY
     circuits.circuit_id;
 
+/*
+16. Historia del Gran Premio de España de Fórmula 1.
+- Para realizar las siguientes consultas, se han utilizado la tabla 'results' y la columna 'name' de la tabla 'races'.
+*/
+
+-- Esta consulta obtiene el palmarés del Gran Premio de España de Fórmula 1, mostrando la puntuación otorgada a cada piloto integrante
+-- del podio en cada temporada del Campeonato del Mundo de Fórmula 1 (se ha utilizado la columna 'position_order' de la tabla 'results').
 SELECT
     year AS season,
     round AS race,
@@ -866,7 +876,8 @@ ORDER BY
     season,
     race,
     position_order;
-
+-- Esta consulta obtiene el historial de 'Pole Positions' en el Gran Premio de España de Fórmula 1, mostrando el tiempo de clasifica-
+-- ción marcado para lograr cada 'Pole Position' (se ha utilizado la columna 'grid_position' de la tabla 'results').
 SELECT
     year AS season,
     round AS race,
@@ -898,7 +909,8 @@ WHERE
 ORDER BY
     season,
     race;
-
+-- Esta consulta obtiene el historial de Vueltas Rápidas de Carrera en el Gran Premio de España de Fórmula 1, indicando si cada Vuelta
+-- Rápida de Carrera fue puntuable (se ha utilizado la columna 'fastest_lap_rank' de la tabla 'results').
 SELECT
     year AS season,
     round AS race,
